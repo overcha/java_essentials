@@ -18,7 +18,7 @@ public class Positive {
 	    	System.out.print("n is ");
 	        n = Input.get_int();
 	    }
-	    while (n < 1);
+	    while (n < 0); //con uno el uno no se tomaba en cuenta el cero y es positivo
 	    return n;
 	}
 }
